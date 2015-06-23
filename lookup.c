@@ -19,8 +19,9 @@
 
 #include "match.h"
 #include "lineb.h"
-#include <stream.h>
+#include <iostream>
 
+using namespace std;
 
 // Return the lowercase version of a char; set csense = 0 to disable.
 

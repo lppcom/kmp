@@ -22,7 +22,7 @@ class line_buffer {
 	    buffer[buflen] = '\0';
 	}
     }
-    virtual int replace(int, const char *, int = -1, int = 0);
+    virtual int replace(int, const char *, int, int);
     int set_buffer(const char *s, int n = -1) { return replace(0, s, n, -1); }
     const char * text() { return buffer; }
     int textlen() { return buflen; }
